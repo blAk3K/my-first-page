@@ -1,0 +1,131 @@
+
+
+*{
+ 
+  box-sizing: border-box;
+  font-family: 'popinins', sans-serif;
+} 
+body{
+  background-color: rgb(38, 64, 64);
+  color:white;
+
+}
+header{
+  padding: 20px 10%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+#logo{
+  font-size: 25px;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 600;
+
+
+}
+nav a {
+
+
+    font-size: 18px;
+    color: rgb(242, 242, 242);
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 35px;
+    transition: .3s; 
+}
+nav a:hover,
+nav a.active {
+
+  color: #00abf0;
+} 
+section{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+padding: 80;
+}
+div{
+  
+  max-width: 550px;
+}
+div h1{
+  font-size: 50px;
+  font-weight: 750;
+  line-height: 1.2;
+}
+div h3{
+  font-size: 30px;
+  font-weight: 750;
+  color: aqua;
+}
+div p{
+  font-size: 16px;
+  margin: 20px 0 40px;
+  
+}
+#coolio {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  height: 40px;
+  
+
+}
+#coolio a{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  background: aqua;
+  border: 2px solid aqua;
+  border-radius: 8px;
+  font-size: 18px;
+  color: rgb(21, 20, 20);
+  text-decoration: none;
+  font-weight: 600px;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+}
+#coolio a:nth-child(2)::before{
+  background: rgb(35, 42, 42);
+}
+#coolio a:nth-child(1){
+  background: transparent;
+  color: aqua;
+}
+#coolio a:nth-child(2){
+  background: transparent;
+  color:aqua;
+}
+#coolio a::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgb(37, 35, 35);
+  z-index: -1;
+  transition: .5s;
+}
+#coolio a:hover:before{
+width: 100%;
+
+}
+#logo{
+font-style: oblique;
+color:aqua;
+}
+#email{
+
+  
+  
+  
+
+}
